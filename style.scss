@@ -1,0 +1,82 @@
+// @import "_utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #382110;
+
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  &:hover{
+    color: #fff;
+  }
+}
+
+.notifi-bar{
+  background-color: #efbf6d;
+  padding: 1rem 0 0.1rem 0;
+  color: #000;
+  p{
+    text-align: center;
+    font-weight: 600;
+    .span-txt{
+font-weight: 100;
+    }
+  }
+}
+
+.logo-img{
+  width: 60%;
+}
+.nav-item{
+  padding-right: 1rem;
+  font-size: 1.1rem;
+  .nav-link{
+    color: #382110 !important;
+    font-weight: 400;
+    &:hover{
+      background-color: #382110;
+      color: #fff !important;
+    }
+  }
+}
+
+form{
+  .serch-bar{
+    width: 500px;
+    height: 2.7rem; 
+  }
+  i{
+    position: absolute;
+      right: 19.5%;
+      bottom: 33%;
+      font-size: 1.2rem;
+  }
+}
+.submit-btn{
+  &:hover{
+    background-color: #382110;
+    color: #fff;
+  }
+}
+
+.two-twenty{
+  background-color: #e87400 ;
+  padding: 1rem ;
+  h1{
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .detail-table{
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+  }
+}
